@@ -38,7 +38,7 @@ Code to run a fully automated youtube that can scrape content, edit a compilatio
 
 # Quick Start🐿️
 
-    git clone https://github.com/sam5epi0l/BotTuber.git
+    git clone https://github.com/Rajrohit000666/BotTuber.git
     cd BotTuber
     # add instagram credentials in config.py
     # add YouTube API v3 credentials to googleAPI.json (check instructions)
