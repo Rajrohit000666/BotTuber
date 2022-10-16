@@ -4,6 +4,6 @@ instaloader==4.5.5
 instalooter==2.4.4
 moviepy==1.0.3
 protobuf==3.14.0
-python_dateutil==2.8.1
+python_dateutil==3.10.7
 schedule==0.6.0
 pyffmpeg==2.1.0
