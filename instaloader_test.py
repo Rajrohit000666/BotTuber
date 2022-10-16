@@ -8,8 +8,8 @@ L = instaloader.Instaloader()
 
 posts = instaloader.Hashtag.from_name(L.context, "urbanphotography").get_posts()
 
-SINCE = datetime(2020, 5, 10)  # further from today, inclusive
-UNTIL = datetime(2020, 5, 11)  # closer to today, not inclusive
+SINCE = datetime(2022, 10, 12)  # further from today, inclusive
+UNTIL = datetime(2022, 10, 13)  # closer to today, not inclusive
 
 k = 0  # initiate k
 #k_list = []  # uncomment this to tune k
