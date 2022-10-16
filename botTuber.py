@@ -43,7 +43,7 @@ else:
   Code to run a fully automated youtube that can scrape content, edit a compilation, and upload to youtube daily. \
 
   Quick Start
-  git clone https://github.com/sam5epi0l/BotTuber.git
+  git clone https://github.com/Rajrohit000666/BotTuber.git
   cd BotTuber
   # add instagram credentials in config.py
   # add YouTube API v3 credentials to googleAPI.json (check instructions)
@@ -196,8 +196,8 @@ Links To Sources & Credit to owners⬇️:
         else:
             print("[+] Making Compilation...")
             makeCompilation(path = videoDirectory,
-                            introName = INTRO_VID,
-                            outroName = OUTRO_VID,
+                            introName = INTRO_M4U,
+                            outroName = OUTRO_M4U,
                             wmark = WATER_MARK,
                             totalVidLength = TOTAL_VID_LENGTH,
                             maxClipLength = MAX_CLIP_LENGTH,
@@ -209,8 +209,8 @@ Links To Sources & Credit to owners⬇️:
     else:
         print("[+] Making Compilation...")
         makeCompilation(path = videoDirectory,
-                        introName = INTRO_VID,
-                        outroName = OUTRO_VID,
+                        introName = INTRO_M4U,
+                        outroName = OUTRO_M4U,
                         wmark = WATER_MARK,
                         totalVidLength = TOTAL_VID_LENGTH,
                         maxClipLength = MAX_CLIP_LENGTH,
